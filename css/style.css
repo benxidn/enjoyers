@@ -24,10 +24,7 @@ header > h1 {
   margin-right: auto;
   font-weight: bold;
 }
-.btn-yt,
-.btn-adm, 
-.btn-wa,
-.btn-tel {
+.btn-yt {
   border: 0;
   border-radius: 50px;
   padding: 4px 10px;
@@ -38,37 +35,6 @@ header > h1 {
 }
 .btn-yt:hover {
   background: #ff8686;
-}
-.btn-adm, 
-.btn-wa, 
-.btn-tel {
-  margin: 3px;
-  margin-bottom: 20px;
-  padding: 3px 10px;
-  font-size: 12px;
-  border: 2px solid #ffa500;
-  background: none;
-  color: #ffa500;
-}
-.btn-wa {
-  border: 2px solid #00c95b;
-  color: #00c95b;
-}
-.btn-tel {
-  border: 2px solid #0097e0;
-  color: #0097e0;
-}
-.btn-adm:hover {
-  background: #ffa500;
-  color: #fff;
-}
-.btn-wa:hover {
-  background: #00c95b;
-  color: #fff;
-}
-.btn-tel:hover {
-  background: #0097e0;
-  color: #fff;
 }
 .content {
   width: 84%;
@@ -92,7 +58,8 @@ header > h1 {
   font-size: 14px;
   text-align: justify;
 }
-.btn-unduh {
+.btn-unduh,
+.btn-order {
   margin: 0;
   margin-bottom: 10px;
   width: 60%;
@@ -106,6 +73,13 @@ header > h1 {
 }
 .btn-unduh:hover {
   background: #83ceff;
+}
+.btn-order {
+  background: #00c95b;
+  width: auto;
+}
+.btn-order:hover {
+  background: #7cffb7;
 }
 .content > h4 {
   margin: 10px;
